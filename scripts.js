@@ -6,4 +6,19 @@ $(document).ready(function(){
     });
   });
 
+  $(".project-box").mouseenter(function() {
+      jQuery(this).children("div").slideDown();
+
+  });
+  $(".project-box").mouseleave(function() {
+      jQuery(this).children("div").slideUp();
+  });
+
+  $("#bio-panel").click(function() {
+
+
+  });
+
+
+
 });
