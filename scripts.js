@@ -1,8 +1,18 @@
 
-var bioParagraphs = ["#bio-p1","#bio-p2","#bio-p3"];
+var bioParagraphs = ["#bio-p1","#bio-p2","#bio-p3","#bio-p4","#bio-p5","#bio-p6","#bio-p7"];
 var currentBio=0;
 
+/*
+* Get a random integer between min and max (inclusive)
+*/
+function randInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 $(document).ready(function(){
+
   /*
    * Decrease header opacity on page scroll down.
    */
@@ -24,9 +34,24 @@ $(document).ready(function(){
       jQuery(this).children("div").slideUp();
   });
 
-  $("#bio-panel").click(function() {
-    $(this).fadeOut();
-    $("#biop1").fadeIn();
-
+  /*
+   * When bio panel is clicked, make current paragraph
+   * disappear and a new one enter
+   */
+  $("#main-bio-panel").click(function() {
+      if (currentBio < bioParagraphs.length-1){
+        currentBio += 1;
+        $(bioParagraphs[currentBio]).slideDown(1000, function() {
+          if (currentBio>1){
+          $(bioParagraphs[currentBio-2]).fadeOut({queue: false, duration: 1000}, 1000);
+          $(bioParagraphs[currentBio-2]).slideUp(1000);
+        }
+        });
+      } else {
+          $(".bio-panel").fadeOut({queue: false, duration: 1000}, 1000);
+          currentBio=0;
+          $(bioParagraphs[currentBio]).slideDown(1000);
+      }
   });
+
 });

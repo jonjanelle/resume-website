@@ -182,6 +182,41 @@ i {
   line-height: 1.3em;
 }
 
+.social-icon {
+  max-width: 64px;
+  max-height: 64px;
+  border-radius: 100%;
+}
+
+.social-icon:hover {
+  box-shadow: 3px 3px 15px 0px rgba(50,50,50,0.75);
+}
+
+
+.bio-panel {
+  display: none;
+  color: #FFF;
+  font-size: 1em;
+  background-color:#282E34;
+  border-radius: 8px;
+  margin: 0;
+  padding: 2em;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.bio-panel > p {
+  font-size: .8em;
+  font-style: italic;
+  font-weight: bold;
+  color: #2DF;
+}
+
+.bio-panel a {
+  color: #2DF;
+  text-decoration: none;
+}
+
 /*
  * ID STYLES
  */
@@ -189,31 +224,8 @@ i {
   min-height: 50%;
 }
 
-#bio-panel {
-  color:#ddd;
-  background-color:#282E34;
-  text-align:center;
-  padding:1em;
-  border-radius: 8px;
-  margin: 0;
-  text-align: justify;
-}
-
-#bio-panel > div {
-  text-align: center;
-  color: #FFF;
-  font-size: 1.5em;
-  display: none;
-}
-
-#bio-panel > h3 {
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-
-#bio-begin {
-  display: block !important;
+#bio-p1 {
+  display: block;
 }
 
 #contact-panel {
@@ -250,13 +262,4 @@ i {
 #github {
   font-size: 2em;
   text-decoration: none;
-}
-.social-icon {
-  max-width: 64px;
-  max-height: 64px;
-  border-radius: 100%;
-}
-
-.social-icon:hover {
-  box-shadow: 3px 3px 15px 0px rgba(50,50,50,0.75);
 }
