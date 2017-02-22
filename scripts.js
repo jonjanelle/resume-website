@@ -41,11 +41,12 @@ $(document).ready(function(){
   $("#main-bio-panel").click(function() {
       if (currentBio < bioParagraphs.length-1){
         currentBio += 1;
-        $(bioParagraphs[currentBio]).slideDown(1000, function() {
-          if (currentBio>1){
+        if (currentBio>1){
           $(bioParagraphs[currentBio-2]).fadeOut({queue: false, duration: 1000}, 1000);
           $(bioParagraphs[currentBio-2]).slideUp(1000);
         }
+        $(bioParagraphs[currentBio]).slideDown(1000, function() {
+
         });
       } else {
           $(".bio-panel").fadeOut({queue: false, duration: 1000}, 1000);
