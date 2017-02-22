@@ -45,9 +45,12 @@ $(document).ready(function(){
           $(bioParagraphs[currentBio-2]).fadeOut({queue: false, duration: 1000}, 1000);
           $(bioParagraphs[currentBio-2]).slideUp(1000);
         }
-        $(bioParagraphs[currentBio]).slideDown(1000, function() {
-
-        });
+        $(bioParagraphs[currentBio]).slideDown(1000);
+      } else if (currentBio==bioParagraphs.length-1) {
+          $(bioParagraphs[currentBio-1]).fadeOut({queue: false, duration: 1000}, 1000);
+          $(bioParagraphs[currentBio-1]).slideUp(1000);
+          $(bioParagraphs[currentBio]).slideDown(1000);
+          currentBio+=1;
       } else {
           $(".bio-panel").fadeOut({queue: false, duration: 1000}, 1000);
           currentBio=0;
