@@ -258,6 +258,7 @@ i {
 }
 
 .social-icon:hover {
-  border: 2px solid rgb(200,100,150);
-  box-shadow: 5px 5px 15px 0px rgba(200,100,150,0.75);
+
+  border: 2px outset rgb(100,100,100);
+  box-shadow: 3px 3px 15px 0px rgba(50,50,50,0.75);
 }
