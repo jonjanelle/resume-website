@@ -167,6 +167,20 @@ i {
   border-radius: 1em;
 }
 
+.proj-label {
+  margin: 0 auto;
+  margin-top: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+  vertical-align: bottom;
+  line-height: 1.2em;
+  letter-spacing: 5px;
+}
+
+.proj-title {
+  line-height: 1.3em;
+}
+
 /*
  * ID STYLES
  */
