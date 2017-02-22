@@ -35,7 +35,7 @@
     <!--
       Title panel
     -->
-    <a name="top-anchor"></a>
+    <a id="top-anchor"></a>
     <div class="bgimg-1">
       <div class="dark-strip">
         <h1 id="main-title">Jon Janelle</h1>
@@ -47,7 +47,7 @@
     <!--
       Skills panel
     -->
-    <a name="skills-anchor"></a>
+    <a id="skills-anchor"></a>
     <div class="content-panel" id="skills-panel">
       <h3>Skills</h3>
       <p>I have experience with many programming languages and frameworks, and
@@ -120,12 +120,10 @@
             <p>MongoDB</p>
         </div>
       </div>
-      <div row class="top-margin-lg">
+      <div class="row top-margin-lg">
         <h3>Resume</h3>
         <p>See my resume for education and work histories</p>
         <a href="Resume_Janelle.pdf"><span class="glyphicon glyphicon-list-alt"></span></a>
-
-
       </div>
     </div>
 
@@ -139,9 +137,9 @@
     <!--
       Projects panel
     -->
-    <a name="project-anchor"></a>
+    <a id="project-anchor"></a>
     <div class="content-panel" id="project-panel">
-      <h3>Sample Projects</h3>
+      <h3>Sample Web Projects</h3>
       <div class="row">
         <!--PROJECT 1-->
         <div class="col-xs-12 col-sm-6 col-md-4">
@@ -166,7 +164,7 @@
                 <div class="justify-l"> PHP, HTML5, CSS3</div>
               </div>
             </div>
-            <img src="boggle1.png">
+            <img src="boggle1.png" alt="Boggle">
           </div>
         </div>
 
@@ -193,7 +191,7 @@
                 <div class="justify-l">PHP, HTML5, CSS3</div>
               </div>
             </div>
-            <img src="passgen1.png">
+            <img src="passgen1.png" alt="password generator">
           </div>
         </div>
 
@@ -216,7 +214,7 @@
                 <div class="justify-l">Coming soon...</div>
               </div>
             </div>
-            <img src="owl.jpg">
+            <img src="owl.jpg" alt="cool owl">
           </div>
         </div>
 
@@ -244,7 +242,7 @@
                 <div class="justify-l">Javascript, HTML5, CSS3</div>
               </div>
             </div>
-            <img src="fractal1.png">
+            <img src="fractal1.png" alt="fractals">
           </div>
         </div>
 
@@ -267,7 +265,7 @@
                 <div class="justify-l">Coming soon...</div>
               </div>
             </div>
-            <img src="pinkpanther.jpg">
+            <img src="pinkpanther.jpg" alt="kermit vs panther">
           </div>
         </div>
         <!--PROJECT 6-->
@@ -289,10 +287,16 @@
                 <div class="justify-l">Coming soon...</div>
               </div>
             </div>
-            <img src="match.jpg">
+            <img src="match.jpg" alt="lit match">
           </div>
         </div>
-      </div>
+      </div> <!-- End of project listing row -->
+      <div class="top-margin-lg"></div>
+      <h3>Other Projects</h3>
+      <p>Check out my Github page for more projects!</p>
+      <a id="github" href="https://github.com/jonjanelle">
+        <i class="devicon-github-plain-wordmark"></i>
+      </a>
     </div>
 
     <!--
@@ -301,7 +305,7 @@
     <div class="bgimg-3">
       <div class="img-label">Morro Bay, CA</div>
     </div>
-    <a name="bio-anchor"></a>
+    <a id="bio-anchor"></a>
 
     <!--
       Biography panel
@@ -309,12 +313,15 @@
     <div class=content-panel>
       <h3>Bio</h3>
       <div id="bio-panel">
-        <p id="bio-begin">click to begin.</p>
-        <p id="biop1">
-          Thinking about how to solve always been a rewarding experience for me.
-        </p>
 
-        <p id="biop2">
+        <div id="bio-p1">
+          <p>
+            Computer science and mathematics have always been fascinating, challenging, and rewarding disciplines.
+          </p>
+          <p>click to begin</p>
+        </div>
+
+        <div id="bio-p2">
           I began learning about software development in 2001 when I took my first high school
           independent study course in computer science using C++. As an undergraduate I was excited
           to continue learning about mathematics and computer science, but discovered that I also
@@ -322,16 +329,16 @@
           RISC assembly language course. This lead me to finish my undergraduate degree in mathematics
           education and enter a career as a high school mathematics teacher where I taught AP Calculus
           AB and AP Calculus BC in central Maine for two years.
-        </p>
+        </div>
 
-        <p id="biop3">
+        <div id="bio-p3">
           During my first two years of teaching I became increasingly curious about mathematical
           modeling and data science, and this lead me to spend substantial amounts of time
           exploring the R and Python languages. I began by completing eight courses in data science
           and statistics offered by John Hopkins University via Coursera, which gave me a strong foundation
           in statistical techniques and R programming. Concurrently, I began using Python to create create
           graphs for classroom use and to create simulations in the SageMath software system.
-        </p>
+        </div>
 
       </div>
     </div>
@@ -346,25 +353,23 @@
     <!--
       Contact me panel
     -->
-    <a name="contact-anchor"></a>
+    <a id="contact-anchor"></a>
     <div class="content-panel">
       <div id="conact-panel">
         <h2><span class="glyphicon glyphicon-phone-alt"></span> Get in touch!</h2>
-
-
-        <div class="top-margin-lg"></div>
         <div class="row row-centered">
-          <a id="email" href="mailto:jonjanelle1@gmail.com" id="email-link">
-            <span class="glyphicon glyphicon-envelope"></span></a>
-          <a href="https://twitter.com/intent/tweet?screen_name=jon_janelle" class="twitter-mention-button" data-show-count="false">Tweet to @jon_janelle</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-          <a id="github" href="https://github.com/jonjanelle">
-            <i class="devicon-github-plain-wordmark"></i>
-          </a>
+          <a id="email" href="mailto:jonjanelle1@gmail.com"><img class="social-icon" src="email.svg" alt="jonjanelle1@gmail.com"></a>
+          <a href="https://github.com/jonjanelle"><img class="social-icon" src="github.svg" alt="Github"></a>
+          <a href="https://twitter.com/jon_janelle"><img class="social-icon" src="twitter.svg" alt="Twitter"></a>
+          <a href="https://www.linkedin.com/in/jon-janelle-93174763"><img class="social-icon" src="linkedin.svg" alt="LinkedIn"></a>
         </div>
+
       </div>
     </div>
-    <div id="credits">Created by Jon Janelle, Feb. 2017</div>
+
+    <div id="credits">
+      <div>Powered by: HTML5, CSS3, JS, jQuery, PHP, and mySQL</div>
+      Created by Jon Janelle, Feb. 2017
+    </div>
   </body>
-
-
 </html>

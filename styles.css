@@ -5,10 +5,11 @@ body, html {
 }
 
 h3 {
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   text-transform: uppercase;
-  font: 20px "Lato", sans-serif;
-  color: #111;
+  font: 2em sans-serif;
+  font-weight: bold;
+  color: #446;
 }
 
 i {
@@ -78,7 +79,7 @@ i {
 .slide-down-div {
   display: none;
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   padding: 1em;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
@@ -184,14 +185,6 @@ i {
 /*
  * ID STYLES
  */
-#email {
-  font-size: 2em;
-  margin-right: 1em;
-}
-#github {
-  margin-left: 1em;
-}
-
 #skills-panel {
   min-height: 50%;
 }
@@ -206,7 +199,7 @@ i {
   text-align: justify;
 }
 
-#bio-panel > p {
+#bio-panel > div {
   text-align: center;
   color: #FFF;
   font-size: 1.5em;
@@ -224,7 +217,7 @@ i {
 }
 
 #contact-panel {
-  color:#ddd;
+  color:#DDD;
   background-color:#282E34;
   text-align:center;
   margin: 0;
@@ -240,6 +233,7 @@ i {
   font-weight: bold;
   font-size: 4em;
 }
+
 #credits {
   width: 100%;
   text-align: right;
@@ -248,4 +242,22 @@ i {
   padding: 0;
   padding-right: 2em;
   font-style: italic;
+}
+#credits > div {
+  float: left;
+}
+
+#github {
+  font-size: 2em;
+  text-decoration: none;
+}
+.social-icon {
+  max-width: 64px;
+  max-height: 64px;
+  border-radius: 100%;
+}
+
+.social-icon:hover {
+  border: 2px solid rgb(200,100,150);
+  box-shadow: 5px 5px 15px 0px rgba(200,100,150,0.75);
 }
