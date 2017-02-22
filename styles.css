@@ -70,7 +70,7 @@ i {
   background-color:white;
   text-align:center;
   height: auto;
-  padding: 3em;
+  padding: 3em 2em 2em 2em;
   border-top: 5px solid black;
   border-bottom: 5px solid black;
 }
@@ -162,13 +162,20 @@ i {
   margin-top: 2em;
 }
 
-
+.twitter-mention-button {
+  margin-right: 1em;
+  border-radius: 1em;
+}
 
 /*
  * ID STYLES
  */
-#project-panel {
-
+#email {
+  font-size: 2em;
+  margin-right: 1em;
+}
+#github {
+  margin-left: 1em;
 }
 
 #skills-panel {
@@ -207,9 +214,7 @@ i {
   background-color:#282E34;
   text-align:center;
   margin: 0;
-  padding: 1em;
   text-align: justify;
-  height: 100px !important;
 }
 
 #last-img {
@@ -220,4 +225,13 @@ i {
   letter-spacing: 15px;
   font-weight: bold;
   font-size: 4em;
+}
+#credits {
+  width: 100%;
+  text-align: right;
+  background-color: black;
+  color: white;
+  padding: 0;
+  padding-right: 2em;
+  font-style: italic;
 }
