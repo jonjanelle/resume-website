@@ -26,7 +26,9 @@ i {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  //background-size: contain;
+  //background-size: cover;
 }
 
 .bgimg-1 {
@@ -39,13 +41,13 @@ i {
   opacity: 0.6;
   background-image: url("img2.jpg");
   //height: 50%;
-  min-height: 400px;
+  min-height: 350px;
 }
 
 .bgimg-3 {
   opacity: 0.6;
   background-image: url("img1.jpg");
-  min-height: 400px;
+  min-height: 350px;
 }
 
 .dark-strip {
