@@ -22,13 +22,14 @@ i {
  */
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-
+  //background-attachment: scroll;
   background-attachment: fixed;
+  background-size: auto 50%
+
   background-position: center;
   background-repeat: no-repeat;
-  //background-size: 100%;
-  //background-size: contain;
-  background-size: cover;
+
+  //background-size: cover;
 }
 
 .bgimg-1 {
@@ -191,6 +192,8 @@ i {
 }
 
 .social-icon:hover {
+  -webkit-box-shadow: 3px 3px 15px 0px rgba(50,50,50,0.75);
+  -moz-box-shadow: 3px 3px 15px 0px rgba(50,50,50,0.75);
   box-shadow: 3px 3px 15px 0px rgba(50,50,50,0.75);
 }
 
@@ -211,6 +214,7 @@ i {
   font-size: 1em;
   font-style: italic;
   font-weight: bold;
+  margin-top: 1em;
   color: #2DF;
 }
 
@@ -229,6 +233,7 @@ i {
 #bio-p1 {
   display: block;
 }
+
 
 #contact-panel {
   color:#DDD;

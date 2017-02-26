@@ -1,6 +1,4 @@
 
-var bioParagraphs = ["#bio-p1","#bio-p2","#bio-p3","#bio-p4","#bio-p5","#bio-p6","#bio-p7"];
-var currentBio=0;
 
 /*
 * Get a random integer between min and max (inclusive)
@@ -22,14 +20,21 @@ $(document).ready(function(){
     });
   });
 
+
+
+  //Make first paragraph glow on mouseover
+  //$("#bio-p1").mouseenter(function() {
+//       $(this).animate({boxShadow: '0 0 30px #ff0000'}, 200 );
+//  });
+
   /*
    * Setup sliding panel effect for project boxes
    * on mouse enter/leave
    */
   $(".project-box").mouseenter(function() {
       jQuery(this).children("div").slideDown();
-
   });
+
   $(".project-box").mouseleave(function() {
       jQuery(this).children("div").slideUp();
   });
@@ -38,20 +43,27 @@ $(document).ready(function(){
    * When bio panel is clicked, make current paragraph
    * disappear and a new one enter
    */
+  var bioParagraphs = ["#bio-p1","#bio-p2","#bio-p3","#bio-p4","#bio-p5","#bio-p6","#bio-p7"];
+  var currentBio=0;
   $("#main-bio-panel").click(function() {
       if (currentBio < bioParagraphs.length-1){
         currentBio += 1;
-        if (currentBio>1){
+        if (currentBio == 1 ) {
+          $(bioParagraphs[currentBio-1]).slideUp({queue: false, duration: 1000}, 1000);
+        }
+        else if (currentBio>1){ //let the first two show.
           $(bioParagraphs[currentBio-2]).fadeOut({queue: false, duration: 1000}, 1000);
           $(bioParagraphs[currentBio-2]).slideUp(1000);
         }
         $(bioParagraphs[currentBio]).slideDown(1000);
-      } else if (currentBio==bioParagraphs.length-1) {
+      }
+      else if (currentBio==bioParagraphs.length-1) {
           $(bioParagraphs[currentBio-1]).fadeOut({queue: false, duration: 1000}, 1000);
           $(bioParagraphs[currentBio-1]).slideUp(1000);
           $(bioParagraphs[currentBio]).slideDown(1000);
           currentBio+=1;
-      } else {
+      }
+      else {
           $(".bio-panel").fadeOut({queue: false, duration: 1000}, 1000);
           currentBio=0;
           $(bioParagraphs[currentBio]).slideDown(1000);
