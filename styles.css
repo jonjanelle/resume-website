@@ -24,7 +24,10 @@ i {
   position: relative;
   //background-attachment: scroll;
   background-attachment: fixed;
-  background-size: auto 50%
+  -moz-background-size: auto 50%;
+  -webkit-background-size: auto 50%;
+  -o-background-size: auto 50%;
+  background-size: auto 50%;
 
   background-position: center;
   background-repeat: no-repeat;
