@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
   <head>
+    <?php require('dataRead.php'); ?>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
@@ -56,73 +57,14 @@
       <p>I have experience with many programming languages and frameworks, and
       I'm always eager to learn more!</p>
       <div class="row row-centered">
-        <div class="col-xs-4 col-sm-3 col-md-2 center-block">
-          <i class="devicon-cplusplus-plain colored"></i>
-          <p class="spin">C++</p>
-        </div>
-        <div class="col-xs-4 col-sm-3 col-md-2 center-block">
-          <i class="devicon-csharp-line colored"></i>
-          <p>C#</p>
-        </div>
-        <div class="col-xs-4 col-sm-3 col-md-2 center-block">
-          <i class="devicon-css3-plain-wordmark colored"></i>
-          <p>CSS3</p>
-        </div>
-        <div class="col-xs-4 col-sm-3 col-md-2 center-block">
-          <i class="devicon-git-plain-wordmark"></i>
-          <p>git</p>
-        </div>
-        <div class="col-xs-4 col-sm-3 col-md-2 center-block">
-          <i class="devicon-html5-plain-wordmark colored"></i>
-          <p>HTML5</p>
-        </div>
-        <div class="col-xs-4 col-sm-3 col-md-2 center-block">
-          <i class="devicon-java-plain-wordmark colored"></i>
-          <p>Java</p>
-        </div>
-
-        <div class="col-xs-4 col-sm-3 col-md-2  center-block">
-          <i class="devicon-javascript-plain colored"></i>
-          <p>JavaScript</p>
-        </div>
-        <div class="col-xs-4 col-sm-3 col-md-2 center-block">
-          <i class="devicon-jquery-plain colored"></i>
-          <p>jQuery</p>
-        </div>
-        <div class="col-xs-4 col-sm-3 col-md-2 center-block">
-          <i class="devicon-angularjs-plain-wordmark colored"></i>
-          <p>AngularJS</p>
-        </div>
-        <div class="col-xs-4 col-sm-3 col-md-2 center-block">
-          <i class="devicon-laravel-plain-wordmark colored"></i>
-          <p>Laravel</p>
-        </div>
-        <div class="col-xs-4 col-sm-3 col-md-2 center-block">
-          <i class="devicon-linux-plain colored"></i>
-          <p>Linux</p>
-        </div>
-        <div class="col-xs-4 col-sm-3 col-md-2 center-block">
-          <i class="devicon-mysql-plain-wordmark colored"></i>
-          <p>MySQL</p>
-        </div>
-
-        <div class="col-xs-4 col-sm-3 col-md-2 center-block">
-          <i class="devicon-php-plain colored"></i>
-          <p>PHP</p>
-        </div>
-        <div class="col-xs-4 col-sm-3 col-md-2 center-block">
-          <i class="devicon-python-plain-wordmark colored"></i>
-          <p>Python</p>
-        </div>
-        <div class="col-xs-4 col-sm-3 col-md-2 center-block">
-          <i class="devicon-bootstrap-plain-wordmark colored"></i>
-          <p>Bootstrap</p>
-        </div>
-        <div class="col-xs-4 col-sm-3 col-md-2 center-block">
-          <i class="devicon-mongodb-plain-wordmark"></i>
-            <p>MongoDB</p>
-        </div>
+        <?php foreach($skills as $name=>$skill): ?>
+          <div class="col-xs-4 col-sm-3 col-md-2 center-block">
+            <i class="<?=$skill['icon']?>"></i>
+            <p><?=$name?></p>
+          </div>
+        <?php endforeach; ?>
       </div>
+
       <div class="row top-margin-lg">
         <h3>Resume</h3>
         <p>See my resume for education and work histories</p>
@@ -145,159 +87,36 @@
       <h3>Sample Web Projects</h3>
 
       <div class="row ">
-        <!--PROJECT 1-->
-        <div class="col-xs-12 col-sm-6 col-md-4 ">
-
-          <div class="proj-label">PROJECT 1</div>
-          <div class="proj-title">Boggle Solver</div>
-          <div class="project-box">
-            <div class="slide-down-div">
-              <div class="row">
-                <div class="justify-r">Link:</div>
-                <div class="justify-l">
-                  <a href="http://a2.jjanelle.me"> Boggle Solver</a>
+        <!--Output projects using json data-->
+        <?php foreach($projects as $title=>$project): ?>
+          <div class="col-xs-12 col-sm-6 col-md-4 ">
+            <div class="proj-label"><?= $title ?></div>
+            <div class="proj-title"><?= $project['title'] ?></div>
+            <div class="project-box">
+              <div class="slide-down-div">
+                <div class="row">
+                  <div class="justify-r">Link:</div>
+                  <div class="justify-l">
+                    <a href="<?=$project['link']?>"> <?=$project['linkText']?></a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="justify-r">Github:</div>
+                  <div class="justify-l">
+                    <a href="<?=$project['github']?>"> Project Code</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="justify-r">Skills: </div>
+                  <div class="justify-l"><?=$project['skills']?></div>
                 </div>
               </div>
-              <div class="row">
-                <div class="justify-r">Github:</div>
-                <div class="justify-l">
-                  <a href = "https://github.com/jonjanelle/DWA-A2"> Project Code</a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="justify-r">Skills: </div>
-                <div class="justify-l"> PHP, HTML5, CSS3</div>
-              </div>
+              <img src="<?=$project['img']?>" alt="<?=$project['imgAlt']?>">
             </div>
-
-            <img src="images/boggle1.png" alt="Boggle">
           </div>
-
-        </div>
-
-        <!--PROJECT 2-->
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="proj-label">PROJECT 2</div>
-          <div class="proj-title">Password Generator</div>
-          <div class="project-box">
-            <div class="slide-down-div">
-              <div class="row">
-                <div class="justify-r">Link: </div>
-                <div class="justify-l">
-                  <a href="http://passgen.jjanelle.me/"> Password Generator</a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="justify-r">Github:</div>
-                <div class="justify-l">
-                  <a href = "https://github.com/jonjanelle/XKCD_Pass_Gen"> Project Code</a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="justify-r">Skills:</div>
-                <div class="justify-l">PHP, HTML5, CSS3</div>
-              </div>
-            </div>
-            <img src="images/passgen1.png" alt="password generator">
-          </div>
-        </div>
-
-        <!--PROJECT 3-->
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="proj-label">PROJECT 3</div>
-          <div class="proj-title">Text, Data, and Color Palette Generator</div>
-          <div class="project-box">
-            <div class="slide-down-div">
-              <div class="row">
-                <div class="justify-r">Link:</div>
-                <div class="justify-l"><a href = ""> Coming soon...</a></div>
-              </div>
-              <div class="row">
-                <div class="justify-r">Github:</div>
-                <div class="justify-l"><a href = ""> Coming soon...</a></div>
-              </div>
-              <div class="row">
-                <div class="justify-r">Skills: </div>
-                <div class="justify-l">Coming soon...</div>
-              </div>
-            </div>
-            <img src="images/owl.jpg" alt="cool owl">
-          </div>
-        </div>
-
-
-        <!--PROJECT 4-->
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="proj-label">PROJECT 4</div>
-          <div class="proj-title">Fractal Explorer</div>
-          <div class="project-box shadowbox">
-            <div class="slide-down-div">
-              <div class="row">
-                <div class="justify-r">Link:</div>
-                <div class="justify-l">
-                  <a href = "http://fractals.jjanelle.me"> Fractal Explorer</a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="justify-r">Github:</div>
-                <div class="justify-l">
-                  <a href = "https://github.com/jonjanelle/math-art-html5canvas"> Project Code</a>
-                </div>
-              </div>
-              <div class="row">
-                <div class="justify-r">Skills: </div>
-                <div class="justify-l">Javascript, HTML5, CSS3</div>
-              </div>
-            </div>
-            <img src="images/fractal1.png" alt="fractals">
-          </div>
-        </div>
-
-        <!--PROJECT 5-->
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="proj-label">PROJECT 5</div>
-          <div class="proj-title">Trumpteroids</div>
-          <div class="project-box">
-            <div class="slide-down-div">
-              <div class="row">
-                <div class="justify-r">Link:</div>
-                <div class="justify-l"><a href="https://play.google.com/store/apps/details?id=com.FigletStudios.Trumpteroids&hl=en">Google Play</a></div>
-              </div>
-              <div class="row">
-                <div class="justify-r">Github:</div>
-                <div class="justify-l"><a href = "https://github.com/jonjanelle/Trumpteroids"> Project Code</a></div>
-              </div>
-              <div class="row">
-                <div class="justify-r">Skills: </div>
-                <div class="justify-l">C#, Unity, GIMP, Audacity</div>
-              </div>
-            </div>
-            <img src="images/trumpteroids1.PNG" alt="Trumpteroids">
-          </div>
-        </div>
-        <!--PROJECT 6-->
-        <div class="col-xs-12 col-sm-6 col-md-4">
-          <div class="proj-label">PROJECT 6</div>
-          <div class="proj-title">Symmetric Artist</div>
-          <div class="project-box">
-            <div class="slide-down-div">
-              <div class="row">
-                <div class="justify-r">Link:</div>
-                <div class="justify-l"><a href = ""> Coming soon...</a></div>
-              </div>
-              <div class="row">
-                <div class="justify-r">Github:</div>
-                <div class="justify-l"><a href = ""> Coming soon...</a></div>
-              </div>
-              <div class="row">
-                <div class="justify-r">Skills: </div>
-                <div class="justify-l">Coming soon...</div>
-              </div>
-            </div>
-            <img src="images/match.jpg" alt="lit match">
-          </div>
-        </div>
+        <?php endforeach; ?>
       </div> <!-- End of project listing row -->
+
       <div class="top-margin-lg"></div>
       <h3>Other Projects</h3>
       <p>Check out my Github page for more projects!</p>
@@ -414,7 +233,7 @@
     </div>
 
     <div id="credits">
-      <div>Powered by: HTML5, CSS3, Bootstrap, JS, jQuery, PHP, and mySQL</div>
+      <div>Powered by: HTML5, CSS3, Bootstrap, JS, jQuery, PHP</div>
       Created by Jon Janelle, Feb. 2017
     </div>
   </body>

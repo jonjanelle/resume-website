@@ -1,0 +1,58 @@
+{
+	"Project 1": {
+		"title": "Boggle!",
+		"link": "http://a2.jjanelle.me",
+		"linkText": "Boggle Solver",
+		"github": "https://github.com/jonjanelle/DWA-A2",
+		"skills": "PHP, HTML5, CSS3",
+		"img": "images/boggle1.png",
+		"imgAlt":"Boggle"
+	},
+	"Project 2": {
+		"title": "Password Generator",
+		"link": "http://passgen.jjanelle.me/",
+		"linkText": "Password Generator",
+		"github": "https://github.com/jonjanelle/XKCD_Pass_Gen",
+		"skills": "PHP, HTML5, CSS3",
+		"img": "images/passgen1.png",
+		"imgAlt":"Password Generator"
+	},	
+	"Project 3": {
+		"title": "Text, Data, and Color Palette Generator",
+		"link": "",
+		"linkText": "Coming soon...",
+		"github": "",
+		"skills": "PHP, Laravel, HTML5, CSS3",
+		"img": "images/owl.jpg",
+		"imgAlt":"Owl!"
+	},
+	"Project 4": {
+		"title": "Fractal Explorer",
+		"link": "http://fractals.jjanelle.me",
+		"linkText": "Fractal Explorer",
+		"github": "https://github.com/jonjanelle/math-art-html5canvas",
+		"skills": "Javascript, HTML5, CSS3",
+		"img": "images/fractal1.png",
+		"imgAlt":"Fractal Image"
+	},
+	"Project 5": {
+		"title": "Trumpteroids",
+		"link": "https://play.google.com/store/apps/details?id=com.FigletStudios.Trumpteroids&hl=en",
+		"linkText": "Google Play",
+		"github": "https://github.com/jonjanelle/Trumpteroids",
+		"skills": "C#, Unity, GIMP",
+		"img": "images/trumpteroids1.PNG",
+		"imgAlt":"Trumpteroids"
+	},
+	"Project 6": {
+		"title": "Symmetric Artist",
+		"link": "",
+		"linkText": "Coming soon...",
+		"github": "",
+		"skills": "Javascript, jQuery",
+		"img": "images/match.jpg",
+		"imgAlt":"match image"
+	}
+	
+	
+}
