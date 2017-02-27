@@ -10,7 +10,6 @@ function randInt(min, max) {
 }
 
 $(document).ready(function(){
-
   /*
    * Decrease header opacity on page scroll down.
    */
@@ -19,13 +18,6 @@ $(document).ready(function(){
       'opacity': 1 - (($(this).scrollTop()) / 350)
     });
   });
-
-
-
-  //Make first paragraph glow on mouseover
-  //$("#bio-p1").mouseenter(function() {
-//       $(this).animate({boxShadow: '0 0 30px #ff0000'}, 200 );
-//  });
 
   /*
    * Setup sliding panel effect for project boxes

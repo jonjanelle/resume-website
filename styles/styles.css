@@ -22,35 +22,27 @@ i {
  */
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-  //background-attachment: scroll;
   background-attachment: fixed;
-  -moz-background-size: auto 50%;
-  -webkit-background-size: auto 50%;
-  -o-background-size: auto 50%;
-  background-size: auto 50%;
-
   background-position: center;
   background-repeat: no-repeat;
-
-  //background-size: cover;
+  background-size: cover;
 }
 
 .bgimg-1 {
   opacity: 0.95;
-  background-image: url("img3.jpg");
+  background-image: url(../images/img1.jpg);
   min-height: 100%;
 }
 
 .bgimg-2 {
   opacity: 0.6;
-  background-image: url("img2.jpg");
-  //height: 50%;
+  background-image: url(../images/img2.jpg);
   min-height: 350px;
 }
 
 .bgimg-3 {
   opacity: 0.6;
-  background-image: url("img1.jpg");
+  background-image: url(../images/img3.jpg);
   min-height: 350px;
 }
 
@@ -136,6 +128,7 @@ i {
   -moz-box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
 }
+
 
 .glyphicon-list-alt {
   font-size: 4em;

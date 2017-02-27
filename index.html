@@ -3,26 +3,29 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--jQuery -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <!-- Latest compiled and minified CSS -->
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Optional theme -->
+    <!-- Optional bootstrap theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!-- Latest compiled and minified JavaScript -->
+    <!-- Latest compiled and minified bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Dev icons -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
-    <script src="jquery.animate-shadow-min.js"></script>
-    <script src="scripts.js"></script>
-    <link rel="stylesheet" href="styles.css">
+    <!-- Scripts -->
+    <script src="scripts/project-animations.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/animation-styles.css">
+    <!--jQuery -->
     <title>Jon Janelle</title>
   </head>
   <body>
     <!--
       Top navigation bar
     -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="main-nav">
       <div class="navbar-header">
         <a class="navbar-brand" href="#top-anchor">Home</a>
         <a class="navbar-brand" href="#skills-anchor">Skills</a>
@@ -36,7 +39,7 @@
       Title panel
     -->
     <a id="top-anchor"></a>
-    <div class="bgimg-1">
+    <div class="scroll-img bgimg-1">
       <div class="dark-strip">
         <h1 id="main-title">Jon Janelle</h1>
         <p>Educator and developer in Medford, MA</p>
@@ -55,7 +58,7 @@
       <div class="row row-centered">
         <div class="col-xs-4 col-sm-3 col-md-2 center-block">
           <i class="devicon-cplusplus-plain colored"></i>
-          <p>C++</p>
+          <p class="spin">C++</p>
         </div>
         <div class="col-xs-4 col-sm-3 col-md-2 center-block">
           <i class="devicon-csharp-line colored"></i>
@@ -140,9 +143,11 @@
     <a id="project-anchor"></a>
     <div class="content-panel" id="project-panel">
       <h3>Sample Web Projects</h3>
-      <div class="row">
+
+      <div class="row ">
         <!--PROJECT 1-->
-        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="col-xs-12 col-sm-6 col-md-4 ">
+
           <div class="proj-label">PROJECT 1</div>
           <div class="proj-title">Boggle Solver</div>
           <div class="project-box">
@@ -164,8 +169,10 @@
                 <div class="justify-l"> PHP, HTML5, CSS3</div>
               </div>
             </div>
-            <img src="boggle1.png" alt="Boggle">
+
+            <img src="images/boggle1.png" alt="Boggle">
           </div>
+
         </div>
 
         <!--PROJECT 2-->
@@ -191,7 +198,7 @@
                 <div class="justify-l">PHP, HTML5, CSS3</div>
               </div>
             </div>
-            <img src="passgen1.png" alt="password generator">
+            <img src="images/passgen1.png" alt="password generator">
           </div>
         </div>
 
@@ -214,7 +221,7 @@
                 <div class="justify-l">Coming soon...</div>
               </div>
             </div>
-            <img src="owl.jpg" alt="cool owl">
+            <img src="images/owl.jpg" alt="cool owl">
           </div>
         </div>
 
@@ -242,7 +249,7 @@
                 <div class="justify-l">Javascript, HTML5, CSS3</div>
               </div>
             </div>
-            <img src="fractal1.png" alt="fractals">
+            <img src="images/fractal1.png" alt="fractals">
           </div>
         </div>
 
@@ -265,7 +272,7 @@
                 <div class="justify-l">C#, Unity, GIMP, Audacity</div>
               </div>
             </div>
-            <img src="trumpteroids1.PNG" alt="Trumpteroids">
+            <img src="images/trumpteroids1.PNG" alt="Trumpteroids">
           </div>
         </div>
         <!--PROJECT 6-->
@@ -287,7 +294,7 @@
                 <div class="justify-l">Coming soon...</div>
               </div>
             </div>
-            <img src="match.jpg" alt="lit match">
+            <img src="images/match.jpg" alt="lit match">
           </div>
         </div>
       </div> <!-- End of project listing row -->
@@ -297,6 +304,7 @@
       <a id="github" href="https://github.com/jonjanelle">
         <i class="devicon-github-plain-wordmark"></i>
       </a>
+
     </div>
 
     <!--
