@@ -14,7 +14,6 @@
     <!-- Dev icons -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <!-- Scripts -->
-    <script src="scripts/project-animations.js"></script>
     <script src="scripts/scripts.js"></script>
     <!-- Styles -->
     <link rel="stylesheet" href="styles/styles.css">
@@ -59,8 +58,10 @@
       <div class="row row-centered">
         <?php foreach($skills as $name=>$skill): ?>
           <div class="col-xs-4 col-sm-3 col-md-2 center-block">
-            <i class="<?=$skill['icon']?>"></i>
-            <p><?=$name?></p>
+            <div class="skill">
+              <i class="<?=$skill['icon']?>"></i>
+              <p><?=$name?></p>
+            </div>
           </div>
         <?php endforeach; ?>
       </div>
@@ -71,6 +72,7 @@
         <a href="Resume_Janelle.pdf"><span class="glyphicon glyphicon-list-alt"></span></a>
       </div>
     </div>
+    <!-- End of skills panel -->
 
     <!--
       First divider image
@@ -125,6 +127,7 @@
       </a>
 
     </div>
+    <!-- End of project panel-->
 
     <!--
       Second divider image
@@ -223,10 +226,10 @@
       <div id="conact-panel">
         <h2><span class="glyphicon glyphicon-phone-alt"></span> Get in touch!</h2>
         <div class="row row-centered">
-          <a id="email" href="mailto:jonjanelle1@gmail.com"><img class="social-icon" src="email.svg" alt="jonjanelle1@gmail.com"></a>
-          <a href="https://github.com/jonjanelle"><img class="social-icon" src="github.svg" alt="Github"></a>
-          <a href="https://twitter.com/jon_janelle"><img class="social-icon" src="twitter.svg" alt="Twitter"></a>
-          <a href="https://www.linkedin.com/in/jon-janelle-93174763"><img class="social-icon" src="linkedin.svg" alt="LinkedIn"></a>
+          <a id="email" href="mailto:jonjanelle1@gmail.com"><img class="social-icon" src="images/email.svg" alt="jonjanelle1@gmail.com"></a>
+          <a href="https://github.com/jonjanelle"><img class="social-icon" src="images/github.svg" alt="Github"></a>
+          <a href="https://twitter.com/jon_janelle"><img class="social-icon" src="images/twitter.svg" alt="Twitter"></a>
+          <a href="https://www.linkedin.com/in/jon-janelle-93174763"><img class="social-icon" src="images/linkedin.svg" alt="LinkedIn"></a>
         </div>
 
       </div>
@@ -236,5 +239,6 @@
       <div>Powered by: HTML5, CSS3, Bootstrap, JS, jQuery, PHP</div>
       Created by Jon Janelle, Feb. 2017
     </div>
+    <script src="scripts/project-animations.js"></script>
   </body>
 </html>

@@ -6,8 +6,3 @@ $(window).scroll(function(){
   }
 
 });
-
-$(".spin").mouseenter(function() {
-  console.log("here");
-  $(this).rotate(360, {duration: 500});
-});
