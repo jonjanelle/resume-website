@@ -9,6 +9,15 @@
 		"imgAlt":"Boggle"
 	},
 	"Project 2": {
+		"title": "Text, Data, and Color Palette Generator",
+		"link": "http://a3.jjanelle.me",
+		"linkText": "Content Generator",
+		"github": "https://github.com/jonjanelle/DWA-A3",
+		"skills": "PHP, Laravel, HTML5, CSS3, JS",
+		"img": "images/fillergen1.png",
+		"imgAlt":"Filler Content Generator"
+	},
+	"Project 3": {
 		"title": "Password Generator",
 		"link": "http://passgen.jjanelle.me/",
 		"linkText": "Password Generator",
@@ -16,15 +25,6 @@
 		"skills": "PHP, HTML5, CSS3",
 		"img": "images/passgen1.png",
 		"imgAlt":"Password Generator"
-	},	
-	"Project 3": {
-		"title": "Text, Data, and Color Palette Generator",
-		"link": "",
-		"linkText": "Coming soon...",
-		"github": "",
-		"skills": "PHP, Laravel, HTML5, CSS3",
-		"img": "images/owl.jpg",
-		"imgAlt":"Owl!"
 	},
 	"Project 4": {
 		"title": "Fractal Explorer",
@@ -53,6 +53,6 @@
 		"img": "images/match.jpg",
 		"imgAlt":"match image"
 	}
-	
-	
+
+
 }
