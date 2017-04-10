@@ -235,7 +235,7 @@
 
     <div id="credits">
       <div>Powered by: HTML5, CSS3, Bootstrap, JS, jQuery, PHP</div>
-      Created by Jon Janelle, Feb. 2017
+      Modified: April 2017
     </div>
     <script src="scripts/scripts.js"></script>
   </body>
