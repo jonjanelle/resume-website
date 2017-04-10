@@ -4,8 +4,10 @@
 
 
 
+.skill {
+  transition: transform .75s ease-in-out;
+}
 .skill:hover {
   transform: rotate( 360deg );
 
-  transition: transform 750ms ease;
 }
