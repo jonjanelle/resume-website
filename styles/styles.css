@@ -140,7 +140,6 @@ i {
 }
 .skill:hover {
   transform: rotate( 360deg );
-
 }
 
 
@@ -158,7 +157,6 @@ i {
   text-align:center;
   height: auto;
 }
-
 
 .justify-r {
   float: left;
@@ -200,7 +198,6 @@ i {
   max-height: 64px;
   border-radius: 100%;
   transition: box-shadow .5s ease-in-out;
-  -webkit-transition: -webkit-box-shadow .5s ease-in-out;
 }
 
 .social-icon:hover {
