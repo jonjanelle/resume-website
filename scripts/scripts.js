@@ -12,8 +12,12 @@ function randInt(min, max) {
 $(document).ready(function(){
   /*
    * Decrease header opacity on page scroll down.
+   * Parallax effect on top image
    */
   $(window).scroll(function() {
+    var scrolledY = $(window).scrollTop();
+    $('#first-img').css('background-position', 'left ' + scrolledY + 'px');
+
     $(".bgimg-1 .dark-strip").css({
       'opacity': 1 - (($(this).scrollTop()) / 350)
     });
@@ -44,8 +48,8 @@ $(document).ready(function(){
           $(bioParagraphs[currentBio-1]).slideUp({queue: false, duration: 1000}, 1000);
         }
         else if (currentBio>1){ //let the first two show.
-          $(bioParagraphs[currentBio-2]).fadeOut({queue: false, duration: 1000}, 1000);
-          $(bioParagraphs[currentBio-2]).slideUp(1000);
+          $(bioParagraphs[currentBio-1]).fadeOut({queue: false, duration: 1000}, 1000);
+          $(bioParagraphs[currentBio-1]).slideUp(1000);
         }
         $(bioParagraphs[currentBio]).slideDown(1000);
       }

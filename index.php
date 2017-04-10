@@ -13,12 +13,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Dev icons -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
-    <!-- Scripts -->
-    <script src="scripts/scripts.js"></script>
+
     <!-- Styles -->
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/animation-styles.css">
-    <!--jQuery -->
+
     <title>Jon Janelle</title>
   </head>
   <body>
@@ -39,7 +37,7 @@
       Title panel
     -->
     <a id="top-anchor"></a>
-    <div class="scroll-img bgimg-1">
+    <div class="scroll-img bgimg-1" id="first-img">
       <div class="dark-strip">
         <h1 id="main-title">Jon Janelle</h1>
         <p>Educator and developer in Medford, MA</p>
@@ -69,7 +67,7 @@
       <div class="row top-margin-lg">
         <h3>Resume</h3>
         <p>See my resume for education and work histories</p>
-        <a href="Resume_Janelle.pdf"><span class="glyphicon glyphicon-list-alt"></span></a>
+        <a href="downloads/Resume_Janelle.pdf"><span class="glyphicon glyphicon-list-alt"></span></a>
       </div>
     </div>
     <!-- End of skills panel -->
@@ -239,6 +237,6 @@
       <div>Powered by: HTML5, CSS3, Bootstrap, JS, jQuery, PHP</div>
       Created by Jon Janelle, Feb. 2017
     </div>
-    <script src="scripts/project-animations.js"></script>
+    <script src="scripts/scripts.js"></script>
   </body>
 </html>

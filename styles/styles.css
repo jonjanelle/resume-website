@@ -22,7 +22,8 @@ i {
  */
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-  background-attachment: fixed;
+/*  background-attachment: fixed;
+  background-attachment: scroll;*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -111,7 +112,6 @@ i {
   -webkit-box-shadow: 2px 5px 15px 3px rgba(50,50,50,0.75);
   -moz-box-shadow: 2px 5px 15px 3px rgba(50,50,50,0.75);
   box-shadow: 2px 5px 15px 3px rgba(50,50,50,0.75);
-  width: 100px;
 }
 
 .project-box p {
@@ -135,8 +135,13 @@ i {
 }
 
 
+.skill {
+  transition: transform .75s ease-in-out;
+}
+.skill:hover {
+  transform: rotate( 360deg );
 
-
+}
 
 
 .glyphicon-list-alt {
@@ -194,12 +199,14 @@ i {
   max-width: 64px;
   max-height: 64px;
   border-radius: 100%;
+  transition: box-shadow .5s ease-in-out;
+  -webkit-transition: -webkit-box-shadow .5s ease-in-out;
 }
 
 .social-icon:hover {
-  -webkit-box-shadow: 3px 3px 15px 0px rgba(50,50,50,0.75);
-  -moz-box-shadow: 3px 3px 15px 0px rgba(50,50,50,0.75);
-  box-shadow: 3px 3px 15px 0px rgba(50,50,50,0.75);
+  -webkit-box-shadow: 2px 3px 15px 3px rgba(50,50,50,0.75);
+  -moz-box-shadow: 2px 3px 15px 3px rgba(50,50,50,0.75);
+  box-shadow: 2px 3px 15px 3px rgba(50,50,50,0.75);
 }
 
 
@@ -275,4 +282,8 @@ i {
 #github {
   font-size: 2em;
   text-decoration: none;
+}
+
+#main-nav {
+  opacity: .9;
 }
