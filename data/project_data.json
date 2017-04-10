@@ -1,41 +1,50 @@
 {
 	"Project 1": {
+		"title": "Math Team Trainer",
+		"link": "http://a4.jjanelle.me",
+		"linkText": "Math Team Trainer",
+		"github": "https://github.com/jonjanelle/DWA-A4",
+		"skills": "PHP, Laravel, HTML, CSS, JS",
+		"img": "images/mtt1.PNG",
+		"imgAlt":"match image"
+	},
+	"Project 2": {
 		"title": "Boggle!",
 		"link": "http://a2.jjanelle.me",
 		"linkText": "Boggle Solver",
 		"github": "https://github.com/jonjanelle/DWA-A2",
-		"skills": "PHP, HTML5, CSS3",
+		"skills": "PHP, HTML, CSS",
 		"img": "images/boggle1.png",
 		"imgAlt":"Boggle"
 	},
-	"Project 2": {
+	"Project 3": {
 		"title": "Text, Data, and Color Palette Generator",
 		"link": "http://a3.jjanelle.me",
 		"linkText": "Content Generators",
 		"github": "https://github.com/jonjanelle/DWA-A3",
-		"skills": "PHP, Laravel, HTML5, CSS3, JS",
+		"skills": "PHP, Laravel, HTML, CSS, JS",
 		"img": "images/fillergen1.PNG",
 		"imgAlt":"Filler Content Generator"
 	},
-	"Project 3": {
+	"Project 4": {
 		"title": "Password Generator",
 		"link": "http://passgen.jjanelle.me/",
 		"linkText": "Password Generator",
 		"github": "https://github.com/jonjanelle/XKCD_Pass_Gen",
-		"skills": "PHP, HTML5, CSS3",
+		"skills": "PHP, HTML, CSS",
 		"img": "images/passgen1.png",
 		"imgAlt":"Password Generator"
 	},
-	"Project 4": {
+	"Project 5": {
 		"title": "Fractal Explorer",
 		"link": "http://fractals.jjanelle.me",
 		"linkText": "Fractal Explorer",
 		"github": "https://github.com/jonjanelle/math-art-html5canvas",
-		"skills": "Javascript, HTML5, CSS3",
+		"skills": "Javascript, HTML, CSS",
 		"img": "images/fractal1.png",
 		"imgAlt":"Fractal Image"
 	},
-	"Project 5": {
+	"Project 6": {
 		"title": "Trumpteroids",
 		"link": "https://play.google.com/store/apps/details?id=com.FigletStudios.Trumpteroids&hl=en",
 		"linkText": "Google Play",
@@ -43,15 +52,6 @@
 		"skills": "C#, Unity, GIMP",
 		"img": "images/trumpteroids1.PNG",
 		"imgAlt":"Trumpteroids"
-	},
-	"Project 6": {
-		"title": "Symmetric Artist",
-		"link": "",
-		"linkText": "Coming soon...",
-		"github": "",
-		"skills": "Javascript, jQuery",
-		"img": "images/match.jpg",
-		"imgAlt":"match image"
 	}
 
 
