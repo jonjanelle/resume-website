@@ -66,4 +66,12 @@ $(document).ready(function(){
       }
   });
 
+  $(".project-box").mouseenter(function(){
+    $(this).children( "img" ).css('transform', 'scale(1.5)');
+  });
+
+  $(".project-box").mouseleave(function(){
+    $(this).children( "img" ).css('transform', 'scale(1)');
+  });
+
 });

@@ -1,7 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
 body, html {
   height: 100%;
   margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
+  font-family: Raleway, sans-serif;
 }
 
 h3 {
@@ -14,7 +16,7 @@ h3 {
 
 i {
   margin: 0 auto;
-  font-size: 3.5em;
+  font-size: 3em;
 }
 
 /*
@@ -22,8 +24,6 @@ i {
  */
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-/*  background-attachment: fixed;
-  background-attachment: scroll;*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -112,6 +112,8 @@ i {
   -webkit-box-shadow: 2px 5px 15px 3px rgba(50,50,50,0.75);
   -moz-box-shadow: 2px 5px 15px 3px rgba(50,50,50,0.75);
   box-shadow: 2px 5px 15px 3px rgba(50,50,50,0.75);
+  transition: transform 1s ease-in;
+
 }
 
 .project-box p {
@@ -131,7 +133,7 @@ i {
   height: auto;
   opacity: 0.6;
   z-index: 1;
-
+  transition: transform 5s ease-in;
 }
 
 
@@ -194,16 +196,16 @@ i {
 }
 
 .social-icon {
-  max-width: 64px;
-  max-height: 64px;
+  max-width: 48px;
+  max-height: 48px;
   border-radius: 100%;
   transition: box-shadow .5s ease-in-out;
 }
 
 .social-icon:hover {
-  -webkit-box-shadow: 2px 3px 15px 3px rgba(50,50,50,0.75);
-  -moz-box-shadow: 2px 3px 15px 3px rgba(50,50,50,0.75);
-  box-shadow: 2px 3px 15px 3px rgba(50,50,50,0.75);
+  -webkit-box-shadow: 1px 2px 20px 3px rgba(50,50,50,0.75);
+  -moz-box-shadow: 1px 2px 20px 3px rgba(50,50,50,0.75);
+  box-shadow: 1px 2px 20px 3px rgba(50,50,50,0.75);
 }
 
 .bio-panel {
@@ -231,6 +233,16 @@ i {
   text-decoration: none;
 }
 
+/*Hover/mouse leave box shadow changes*/
+.shadow-transition {
+  transition: box-shadow 1s ease;
+  box-shadow: none;
+}
+.shadow-transition:hover {
+  transition: box-shadow .3s ease;
+  box-shadow: 0 5px 10px 3px rgba(100,100,100,.7);
+}
+
 /*
  * ID STYLES
  */
@@ -255,8 +267,7 @@ i {
 }
 
 #main-title{
-  letter-spacing: 15px;
-  font-weight: bold;
+  letter-spacing: 10px;
   font-size: 4em;
 }
 
