@@ -27,13 +27,13 @@
 		"imgAlt":"Filler Content Generator"
 	},
 	"Project 4": {
-		"title": "Password Generator",
-		"link": "http://passgen.jjanelle.me/",
-		"linkText": "Password Generator",
-		"github": "https://github.com/jonjanelle/XKCD_Pass_Gen",
-		"skills": "PHP, HTML, CSS",
-		"img": "images/passgen1.png",
-		"imgAlt":"Password Generator"
+		"title": "URL Shortener",
+		"link": "http://sm.jjanelle.me/",
+		"linkText": "Shorten",
+		"github": "https://github.com/jonjanelle/link-shorten",
+		"skills": "PHP, HTML, CSS, mySQL",
+		"img": "images/shorten1.png",
+		"imgAlt":"URL Shortener"
 	},
 	"Project 5": {
 		"title": "Fractal Explorer",
