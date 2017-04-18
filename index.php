@@ -65,7 +65,7 @@ Skills panel
     I'm always eager to learn more!</p>
     <div class="row row-centered">
       <?php foreach($skills as $name=>$skill): ?>
-        <div class="col-xs-4 col-sm-3 col-md-2 center-block">
+        <div class="col-xs-3 col-sm-2 col-md-2 center-block">
           <div class="skill">
             <i class="<?=$skill['icon']?>"></i>
             <p><?=$name?></p>
@@ -101,7 +101,7 @@ Projects panel
   <div class="row ">
     <!--Output projects using json data-->
     <?php foreach($projects as $title=>$project): ?>
-      <div class="col-xs-12 col-sm-6 col-md-4 ">
+      <div class="col-xs-12 col-sm-6 col-md-4">
         <div class="proj-label"><?= $title ?></div>
         <div class="proj-title"><?= $project['title'] ?></div>
         <div class="project-box">
@@ -160,13 +160,13 @@ Biography panel
 <div class=content-panel>
   <h3>Bio</h3>
   <div id="main-bio-panel">
-    <div class="bio-panel shadow-transition" id="bio-p1">
+    <div class="bio-panel" id="bio-p1">
       I've always been fascinated by what computer science and mathematics can enable us to create.
       <div class="top-margin-lg"></div>
       <p>press to proceed</p>
     </div>
 
-    <div class="bio-panel shadow-transition" id="bio-p2">
+    <div class="bio-panel" id="bio-p2">
       I began learning about software development in 2001 by taking an independent study course in
       C++ programming with the guidance of my high school's IT specialist. After three years (and
       many, many bad versions of classic arcade games) I was excited to take my skills to the next
@@ -174,7 +174,7 @@ Biography panel
       <p>press to proceed</p>
     </div>
 
-    <div class="bio-panel shadow-transition" id="bio-p3">
+    <div class="bio-panel" id="bio-p3">
       As an undergraduate I had opportunities learn about algorithms, computer architechture,
       system administration, and a range of powerful mathematical techniques. On the side I worked
       as a UNIX system administrator for the engineering school where I helped maintain networks and
@@ -183,7 +183,7 @@ Biography panel
       <p>press to proceed</p>
     </div>
 
-    <div class="bio-panel shadow-transition" id="bio-p4">
+    <div class="bio-panel" id="bio-p4">
       After working as a teaching assistant in an introductory RISC assembly language course, I
       discovered that guiding others to find excitment through technology can be a lot of fun. I'd considered
       the idea of teaching before after being a Big Brothers Big Sisters mentor and tutor, but now I decided to
@@ -192,7 +192,7 @@ Biography panel
       <p>press to proceed</p>
     </div>
 
-    <div class="bio-panel shadow-transition" id="bio-p5">
+    <div class="bio-panel" id="bio-p5">
       While teaching I developed an interest in mathematical modeling and data science, so I started spending
       substantial amounts of time exploring the R and Python languages. I began by completing eight courses in
       data science and statistics courses from John Hopkins University delivered via Coursera. This gave me a
@@ -206,7 +206,7 @@ Biography panel
       <p>press to proceed</p>
     </div>
 
-    <div class="bio-panel shadow-transition" id="bio-p6">
+    <div class="bio-panel" id="bio-p6">
       After two years I wanted to take time to hone my data science skills, so I returned to graduate school
       at the University of Maine where I studied on techniques for conducting social science research. The degree
       track was flexible, and I chose to complete it by taking extensive graduate coursework in mathematical
@@ -215,7 +215,7 @@ Biography panel
       <p>press to proceed</p>
     </div>
 
-    <div class="bio-panel shadow-transition" id="bio-p7">
+    <div class="bio-panel" id="bio-p7">
       After finishing graduate school, I moved to Massachusetts with my wife, Hayley. I am currently working
       as a high school mathematics and computer science teacher, where I teach AP Computer Science A
       in Java, game development using Python, and Calculus I. Teaching continues to be exciting and challenging work,
