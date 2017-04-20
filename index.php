@@ -39,6 +39,9 @@
       <div class="collapse navbar-collapse navbar-left navbar-main-collapse">
         <!-- Right Side Of Navbar -->
         <ul class="nav navbar-nav navbar-left">
+          <li class="hidden">
+              <a href="#top"></a>
+          </li>
           <li><a href="#top">Home</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#project">Projects</a></li>
