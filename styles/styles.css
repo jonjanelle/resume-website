@@ -30,8 +30,8 @@ i {
  }
 
  .navbar-custom .navbar-toggle {
-   color: #999; 
-   font-size: 16px;
+   color: #999;
+   font-size: 12px;
  }
 
  .navbar-custom .navbar-toggle:focus,
@@ -39,11 +39,9 @@ i {
    color: white;
  }
  .navbar-custom .navbar-brand {
-   font-weight: 700;
+   display: none;
  }
- .navbar-custom .navbar-brand:focus {
-   outline: none;
- }
+
  .navbar-custom a {
    color: rgba(0,0,210,.6);
  }
@@ -108,6 +106,9 @@ i {
    }
    .navbar-custom .nav li.active a {
      color: white;
+   }
+   .navbar-custom .navbar-brand {
+     display: inline;
    }
  }
  /*
