@@ -21,58 +21,44 @@
   <title>Jon Janelle</title>
 </head>
 <body data-spy="scroll" data-target=".navbar-fixed-top">
-  <nav class="navbar navbar-inverse navbar-fixed-top" id="main-nav" role="navigation">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
-        <span class="sr-only">Toggle Navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
+  <nav class="navbar navbar-custom navbar-fixed-top" id="main-nav" role="navigation">
+    <div class="container">
 
-    <div class="collapse navbar-collapse" id="app-navbar-collapse">
-      <!-- Right Side Of Navbar -->
-      <ul class="nav navbar-nav navbar-left">
-        <li><a href="#top">Home</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#project">Projects</a></li>
-        <li><a href="#bio">Bio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+          <span class="glyphicon glyphicon-th-list"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse navbar-left navbar-main-collapse">
+        <!-- Right Side Of Navbar -->
+        <ul class="nav navbar-nav navbar-left">
+          <li><a href="#top">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#bio">Bio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </div>
+    <!-- /.container -->
   </nav>
 
-  <!--
-  Title panel
--->
+
+<!--Title panel-->
 <a id="top"></a>
-
 <div class="scroll-img bgimg-1" id="first-img">
-
   <div class="dark-strip">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 id="main-title">Jon Janelle</h1>
-        <p>Educator and developer in Medford, MA</p>
-        <p>jonjanelle1@gmail.com</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-12">
-        <a href="#skills" class="btn btn-circle page-scroll">
-          <i class="fa fa-angle-double-down animated"></i>
-        </a>
-      </div>
-    </div>
+    <h1 id="main-title">Jon Janelle</h1>
+    <p>Educator and developer in Medford, MA</p>
+    <p>jonjanelle1@gmail.com</p>
+    <a href="#skills" class="btn btn-circle page-scroll">
+      <i class="fa fa-angle-double-down animated"></i>
+    </a>
   </div>
-
-
 </div>
 
-<!--
-Skills panel
--->
+<!--Skills panel-->
 <a id="skills"></a>
 <div class="content-panel" id="skills-panel">
   <h3>Skills</h3>
