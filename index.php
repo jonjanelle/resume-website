@@ -13,15 +13,15 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <!-- Dev icons -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
-
+  <!-- Font awesome for circle and down arrows -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Styles -->
   <link rel="stylesheet" href="styles/styles.css">
 
   <title>Jon Janelle</title>
 </head>
-<body>
-
-  <nav class="navbar navbar-inverse navbar-fixed-top" id="main-nav">
+<body data-spy="scroll" data-target=".navbar-fixed-top">
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="main-nav" role="navigation">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
         <span class="sr-only">Toggle Navigation</span>
@@ -47,12 +47,27 @@
   Title panel
 -->
 <a id="top"></a>
+
 <div class="scroll-img bgimg-1" id="first-img">
+
   <div class="dark-strip">
-    <h1 id="main-title">Jon Janelle</h1>
-    <p>Educator and developer in Medford, MA</p>
-    <p>jonjanelle1@gmail.com</p>
+    <div class="row">
+      <div class="col-md-12">
+        <h1 id="main-title">Jon Janelle</h1>
+        <p>Educator and developer in Medford, MA</p>
+        <p>jonjanelle1@gmail.com</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <a href="#skills" class="btn btn-circle page-scroll">
+          <i class="fa fa-angle-double-down animated"></i>
+        </a>
+      </div>
+    </div>
   </div>
+
+
 </div>
 
 <!--
@@ -258,5 +273,6 @@ Contact me panel
 </div>
 
 <script src="scripts/scripts.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
 </body>
 </html>
