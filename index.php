@@ -26,13 +26,14 @@
 
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-          <span class="glyphicon glyphicon-th-list"></span>
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
         </button>
-
         <a class="navbar-brand page-scroll" href="#top">
           <span class="glyphicon glyphicon-home"></span>
         </a>
-
       </div>
 
       <div class="collapse navbar-collapse navbar-left navbar-main-collapse">

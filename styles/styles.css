@@ -41,6 +41,9 @@ i {
  .navbar-custom .navbar-brand {
    display: none;
  }
+ .navbar-toggle .icon-bar { 
+   background-color: #fff;
+ }
 
  .navbar-custom a {
    color: rgba(0,0,210,.6);
