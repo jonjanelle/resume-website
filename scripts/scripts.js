@@ -29,9 +29,10 @@ $(document).ready(function(){
    * Parallax effect on top image
    */
   $(window).scroll(function() {
-    var scrolledY = $(window).scrollTop();
-    $('#first-img').css('background-position', 'left ' + scrolledY + 'px');
-
+    if (screen.width >= 768){
+      var scrolledY = $(this).scrollTop();
+      $('#first-img').css('background-position', 'left ' + scrolledY + 'px');
+    }
     $(".bgimg-1 .dark-strip").css({
       'opacity': 1 - (($(this).scrollTop()) / 350)
     });
