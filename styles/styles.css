@@ -184,11 +184,11 @@ i {
 .slide-down-div {
   display: none;
   margin: 0 auto;
-  width: 90%;
-  padding: 1em;
+  width: 95%;
+  padding: 1em .5em 1em .5em;
   overflow: hidden;
-  border-bottom-left-radius: 1em;
-  border-bottom-right-radius: 1em;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
   background-color: rgba(0,0,0,.8);
   position: relative;
   z-index: 2;
@@ -340,7 +340,13 @@ i {
   color: #2DF;
   text-decoration: none;
 }
-
+.bio-page-num {
+  color: #00FF00;
+  position:relative;
+  float: right;
+  bottom:1.5em;
+  left: 1em;
+}
 /*
  * btn-circle styles from grayscale css bootstrap theme
 */

@@ -39,14 +39,13 @@
       <div class="collapse navbar-collapse navbar-left navbar-main-collapse">
         <!-- Right Side Of Navbar -->
         <ul class="nav navbar-nav navbar-left">
-          <li class="hidden">
-              <a href="#top"></a>
-          </li>
+          <li class="hidden"><a href="#top"></a></li>
           <li><a href="#top">Home</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#project">Projects</a></li>
           <li><a href="#bio">Bio</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li class="hidden"><a href="#contact"></a></li>
         </ul>
       </div>
     </div>
@@ -177,6 +176,7 @@ Biography panel
     </div>
 
     <div class="bio-panel" id="bio-p2">
+      <div class="bio-page-num">2/7</div>
       I began learning about software development in 2001 by taking an independent study course in
       C++ programming with the guidance of my high school's IT specialist. After three years (and
       many, many bad versions of classic arcade games) I was excited to take my skills to the next
@@ -185,6 +185,7 @@ Biography panel
     </div>
 
     <div class="bio-panel" id="bio-p3">
+      <div class="bio-page-num">3/7</div>
       As an undergraduate I had opportunities learn about algorithms, computer architechture,
       system administration, and a range of powerful mathematical techniques. On the side I worked
       as a UNIX system administrator for the engineering school where I helped maintain networks and
@@ -194,6 +195,7 @@ Biography panel
     </div>
 
     <div class="bio-panel" id="bio-p4">
+      <div class="bio-page-num">4/7</div>
       After working as a teaching assistant in an introductory RISC assembly language course, I
       discovered that guiding others to find excitment through technology can be a lot of fun. I'd considered
       the idea of teaching before after being a Big Brothers Big Sisters mentor and tutor, but now I decided to
@@ -203,6 +205,7 @@ Biography panel
     </div>
 
     <div class="bio-panel" id="bio-p5">
+      <div class="bio-page-num">5/7</div>
       While teaching I developed an interest in mathematical modeling and data science, so I started spending
       substantial amounts of time exploring the R and Python languages. I began by completing eight courses in
       data science and statistics courses from John Hopkins University delivered via Coursera. This gave me a
@@ -217,6 +220,7 @@ Biography panel
     </div>
 
     <div class="bio-panel" id="bio-p6">
+      <div class="bio-page-num">6/7</div>
       After two years I wanted to take time to hone my data science skills, so I returned to graduate school
       at the University of Maine where I studied on techniques for conducting social science research. The degree
       track was flexible, and I chose to complete it by taking extensive graduate coursework in mathematical
@@ -226,6 +230,7 @@ Biography panel
     </div>
 
     <div class="bio-panel" id="bio-p7">
+      <div class="bio-page-num">7/7</div>
       After finishing graduate school, I moved to Massachusetts with my wife, Hayley. I am currently working
       as a high school mathematics and computer science teacher, where I teach AP Computer Science A
       in Java, game development using Python, and Calculus I. Teaching continues to be exciting and challenging work,
