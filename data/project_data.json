@@ -4,7 +4,7 @@
 		"link": "http://a4.jjanelle.me",
 		"linkText": "Math Team Trainer",
 		"github": "https://github.com/jonjanelle/DWA-A4",
-		"skills": "PHP, Laravel, HTML, CSS, JavaScript",
+		"skills": "PHP, Laravel, HTML, CSS, JS",
 		"img": "images/mtt1.PNG",
 		"imgAlt":"match image"
 	},
@@ -22,7 +22,7 @@
 		"link": "http://a3.jjanelle.me",
 		"linkText": "Content Generators",
 		"github": "https://github.com/jonjanelle/DWA-A3",
-		"skills": "PHP, Laravel, HTML, CSS, JavaScript",
+		"skills": "PHP, Laravel, HTML, CSS, JS",
 		"img": "images/fillergen1.PNG",
 		"imgAlt":"Filler Content Generator"
 	},
@@ -40,7 +40,7 @@
 		"link": "http://fractals.jjanelle.me",
 		"linkText": "Fractal Explorer",
 		"github": "https://github.com/jonjanelle/math-art-html5canvas",
-		"skills": "HTML, CSS, JavaScript",
+		"skills": "HTML, CSS, JS",
 		"img": "images/fractal1.png",
 		"imgAlt":"Fractal Image"
 	},
