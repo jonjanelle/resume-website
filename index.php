@@ -45,7 +45,6 @@
           <li><a href="#project">Projects</a></li>
           <li><a href="#bio">Bio</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li class="hidden"><a href="#contact"></a></li>
         </ul>
       </div>
     </div>
@@ -53,7 +52,7 @@
   </nav>
 
 
-<!--Title panel-->
+
 <a id="top"></a>
 <div class="scroll-img bgimg-1" id="first-img">
   <div class="dark-strip">
@@ -120,34 +119,16 @@ Projects panel
               <div class="col col-md-12">
                 <a href="<?=$project['link']?>"> <?=$project['linkText']?></a>
               </div>
-              <!--
-              <div class="justify-r">Link:</div>
-              <div class="justify-l">
-                <a href="<?=$project['link']?>"> <?=$project['linkText']?></a>
-              </div>
-              -->
             </div>
             <div class="row">
               <div class="col col-md-12"><span class="green">Github:</span></div>
               <div class="col col-md-12">
                 <a href="<?=$project['github']?>"> Project Code</a>
               </div>
-
-              <!--
-              <div class="justify-r">Github:</div>
-              <div class="justify-l">
-                <a href="<?=$project['github']?>"> Project Code</a>
-              </div>
-             -->
-
             </div>
             <div class="row">
               <div class="col col-md-12 green"><span class="green">Skills:</span></div>
               <div class="col col-md-12"><?=$project['skills']?></div>
-              <!--
-              <div class="justify-r">Skills: </div>
-              <div class="justify-l"><?=$project['skills']?></div>
-              -->
             </div>
           </div>
           <img src="<?=$project['img']?>" alt="<?=$project['imgAlt']?>">
