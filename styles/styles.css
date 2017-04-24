@@ -186,13 +186,15 @@ i {
 .slide-down-div {
   display: none;
   margin: 0 auto;
-  width: 95%;
+  width: 92%;
+  margin-right: 4%;
+  margin-left: 4%;
   padding: 1em .5em 1em .5em;
   overflow: hidden;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   background-color: rgba(0,0,0,.75);
-  position: relative;
+  position: absolute;
   z-index: 2;
 }
 
@@ -329,6 +331,7 @@ i {
   padding: 1.5em;
   text-align: center;
   line-height: 1.5em;
+
 }
 
 .bio-panel > p {
