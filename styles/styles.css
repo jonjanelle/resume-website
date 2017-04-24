@@ -150,7 +150,7 @@ i {
 .dark-strip {
   position: absolute;
   left: 0;
-  top: 20%;
+  top: 25%;
   width: 100%;
   text-align: center;
   background-color: rgba(0,0,0,.75);
