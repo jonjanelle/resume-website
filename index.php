@@ -20,7 +20,7 @@
 
   <title>Jon Janelle</title>
 </head>
-<body data-spy="scroll" data-target=".navbar-fixed-top">
+<body data-spy="scroll" data-target=".navbar-fixed-top" id="top">
   <nav class="navbar navbar-custom navbar-fixed-top" id="main-nav" role="navigation">
     <div class="container">
 
@@ -53,7 +53,7 @@
 
 
 
-<a id="top"></a>
+<!--<a id="top"></a>-->
 <div class="scroll-img bgimg-1" id="first-img">
   <div class="dark-strip">
     <h1 id="main-title">Jon Janelle</h1>
