@@ -116,20 +116,38 @@ Projects panel
         <div class="project-box">
           <div class="slide-down-div">
             <div class="row">
+              <div class="col col-md-12"><span class="green">Link:</span></div>
+              <div class="col col-md-12">
+                <a href="<?=$project['link']?>"> <?=$project['linkText']?></a>
+              </div>
+              <!--
               <div class="justify-r">Link:</div>
               <div class="justify-l">
                 <a href="<?=$project['link']?>"> <?=$project['linkText']?></a>
               </div>
+              -->
             </div>
             <div class="row">
+              <div class="col col-md-12"><span class="green">Github:</span></div>
+              <div class="col col-md-12">
+                <a href="<?=$project['github']?>"> Project Code</a>
+              </div>
+
+              <!--
               <div class="justify-r">Github:</div>
               <div class="justify-l">
                 <a href="<?=$project['github']?>"> Project Code</a>
               </div>
+             -->
+
             </div>
             <div class="row">
+              <div class="col col-md-12 green"><span class="green">Skills:</span></div>
+              <div class="col col-md-12"><?=$project['skills']?></div>
+              <!--
               <div class="justify-r">Skills: </div>
               <div class="justify-l"><?=$project['skills']?></div>
+              -->
             </div>
           </div>
           <img src="<?=$project['img']?>" alt="<?=$project['imgAlt']?>">

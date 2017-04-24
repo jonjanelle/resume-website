@@ -18,7 +18,9 @@ i {
   margin: 0 auto;
   font-size: 3em;
 }
-
+.col-xs-9 {
+  text-align: left;
+}
 /*
  * Navbar styles
  */
@@ -189,7 +191,7 @@ i {
   overflow: hidden;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-  background-color: rgba(0,0,0,.8);
+  background-color: rgba(0,0,0,.75);
   position: relative;
   z-index: 2;
 }
@@ -297,12 +299,10 @@ i {
 
 .justify-r {
   float: left;
-  width: 25%;
   text-align: right;
-  margin: 0 3% 0 5%;
 }
 .justify-l {
-  float: left;
+
   text-align: left;
 }
 
@@ -310,6 +310,9 @@ i {
   margin-top: 2em;
 }
 
+.green {
+  color: #00FF00;
+}
 
 /*
  * Biography text box styles
