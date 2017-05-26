@@ -32,6 +32,9 @@
 	"Laravel":{
 		"icon":"devicon-laravel-plain-wordmark colored"
 	},
+	"Django":{
+		"icon":"devicon-django-plain colored"
+	},
 	"MySQL":{
 		"icon":"devicon-mysql-plain-wordmark colored"
 	},
