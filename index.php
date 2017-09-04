@@ -51,13 +51,11 @@
     <!-- /.container -->
   </nav>
 
-
-
 <!--<a id="top"></a>-->
 <div class="scroll-img bgimg-1" id="first-img">
   <div class="dark-strip">
     <h1 id="main-title">Jon Janelle</h1>
-    <p>Educator and developer in Medford, MA</p>
+    <p>Software Developer and Educator</p>
     <p>jonjanelle1@gmail.com</p>
     <a href="#skills" class="btn btn-circle page-scroll">
       <i class="fa fa-angle-double-down animated"></i>
@@ -68,12 +66,13 @@
 <!--Skills panel-->
 <a id="skills"></a>
 <div class="content-panel" id="skills-panel">
-  <h3>Skills</h3>
+  <div class="section-title">Skills</div>
   <p>I have experience with many programming languages and frameworks, and
     I'm always eager to learn more!</p>
+    <br>
     <div class="row row-centered">
       <?php foreach($skills as $name=>$skill): ?>
-        <div class="col-xs-3 col-sm-2 col-md-2 center-block">
+        <div class="col-xs-3 col-sm-2 col-md-1 center-block">
           <div class="skill">
             <i class="<?=$skill['icon']?>"></i>
             <p><?=$name?></p>
@@ -83,7 +82,7 @@
     </div>
 
     <div class="row top-margin-lg">
-      <h3>Resume</h3>
+      <div class="section-title">Resume</div>
       <p>See my resume for education and work histories</p>
       <a href="downloads/Resume_Janelle.pdf"><span class="glyphicon glyphicon-list-alt"></span></a>
     </div>
@@ -104,7 +103,7 @@ Projects panel
 -->
 <a id="project"></a>
 <div class="content-panel" id="project-panel">
-  <h3>Sample Projects</h3>
+  <div class="section-title">Sample Projects</div>
 
   <div class="row ">
     <!--Output projects using json data-->
@@ -138,13 +137,13 @@ Projects panel
   </div> <!-- End of project listing row -->
 
   <div class="top-margin-lg"></div>
-  <h3>Other Projects</h3>
+  <div class="section-title">Other Projects</div>
   <p>Check out my Github page for more projects!</p>
   <a id="github" href="https://github.com/jonjanelle">
     <i class="devicon-github-plain-wordmark"></i>
   </a>
   <div class="row top-margin-lg">
-    <h3>Competitive Coding</h3>
+    <div class="section-title">Competitive Coding</div>
     <p>I'm active in several competitive coding communities including
       <a href="https://www.hackerrank.com/jonjanelle1">HackerRank</a>,
       <a href="https://codefights.com/profile/figlet_newton">CodeFights</a>,
@@ -166,7 +165,7 @@ Second divider image
 Biography panel
 -->
 <div class=content-panel>
-  <h3>Bio</h3>
+  <div class="section-title">Bio</div>
   <div id="main-bio-panel">
     <div class="bio-panel" id="bio-p1">
       I've always been fascinated by what computer science and mathematics can enable us to create.

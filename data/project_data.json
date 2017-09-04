@@ -1,57 +1,57 @@
 {
-	"Project 1": {
-		"title": "Math Team Trainer",
-		"link": "http://a4.jjanelle.me",
-		"linkText": "Math Team Trainer",
-		"github": "https://github.com/jonjanelle/DWA-A4",
-		"skills": "PHP, Laravel, HTML, CSS, JS",
-		"img": "images/mtt1.PNG",
-		"imgAlt":"match image"
-	},
-	"Project 2": {
-		"title": "Boggle!",
-		"link": "http://a2.jjanelle.me",
-		"linkText": "Boggle Solver",
-		"github": "https://github.com/jonjanelle/DWA-A2",
-		"skills": "PHP, HTML, CSS",
-		"img": "images/boggle1.png",
-		"imgAlt":"Boggle"
-	},
-	"Project 3": {
-		"title": "Text, Data, and Color Palette Generator",
-		"link": "http://a3.jjanelle.me",
-		"linkText": "Content Generators",
-		"github": "https://github.com/jonjanelle/DWA-A3",
-		"skills": "PHP, Laravel, HTML, CSS, JS",
-		"img": "images/fillergen1.PNG",
-		"imgAlt":"Filler Content Generator"
-	},
-	"Project 4": {
-		"title": "URL Shortener",
-		"link": "http://sm.jjanelle.me/",
-		"linkText": "Shorten",
-		"github": "https://github.com/jonjanelle/link-shorten",
-		"skills": "PHP, Laravel, HTML, CSS, mySQL",
-		"img": "images/shorten1.PNG",
-		"imgAlt":"URL Shortener"
-	},
-	"Project 5": {
-		"title": "Fractal Explorer",
-		"link": "http://fractals.jjanelle.me",
-		"linkText": "Fractal Explorer",
-		"github": "https://github.com/jonjanelle/FractalExplorer",
-		"skills": "HTML, CSS, JS",
-		"img": "images/fractal1.png",
-		"imgAlt":"Fractal Image"
-	},
-	"Project 6": {
-		"title": "Trumpteroids",
-		"link": "https://play.google.com/store/apps/details?id=com.FigletStudios.Trumpteroids&hl=en",
-		"linkText": "Google Play",
-		"github": "https://github.com/jonjanelle/Trumpteroids",
-		"skills": "C#, Unity, GIMP",
-		"img": "images/trumpteroids1.PNG",
-		"imgAlt":"Trumpteroids"
-	}
+  "Project 1": {
+    "title": "Math Team Trainer",
+    "link": "http://a4.jjanelle.me",
+    "linkText": "Math Team Trainer",
+    "github": "https://github.com/jonjanelle/DWA-A4",
+    "skills": "PHP, Laravel, HTML, CSS, JS",
+    "img": "images/mtt1.PNG",
+    "imgAlt":"match image"
+  },
+  "Project 2": {
+    "title": "Boston Jazz Gigs",
+    "link": "http://www.bostonjazzgigs.com",
+    "linkText": "Boston Jazz Gigs",
+    "github": "https://github.com/jonjanelle/BostonJazzGigs",
+    "skills": "Ruby, Rails, JS, HTML, CSS",
+    "img": "images/bjg.PNG",
+    "imgAlt":"Boston Jazz Gigs"
+  },
+  "Project 3": {
+    "title": "Text, Data, and Color Palette Generator",
+    "link": "http://a3.jjanelle.me",
+    "linkText": "Content Generators",
+    "github": "https://github.com/jonjanelle/DWA-A3",
+    "skills": "PHP, Laravel, HTML, CSS, JS",
+    "img": "images/fillergen1.PNG",
+    "imgAlt":"Filler Content Generator"
+  },
+  "Project 4": {
+    "title": "URL Shortener",
+    "link": "http://sm.jjanelle.me/",
+    "linkText": "Shorten",
+    "github": "https://github.com/jonjanelle/link-shorten",
+    "skills": "PHP, Laravel, HTML, CSS, mySQL",
+    "img": "images/shorten1.PNG",
+    "imgAlt":"URL Shortener"
+  },
+  "Project 5": {
+    "title": "Fractal Explorer",
+    "link": "http://fractals.jjanelle.me",
+    "linkText": "Fractal Explorer",
+    "github": "https://github.com/jonjanelle/FractalExplorer",
+    "skills": "HTML, CSS, JS",
+    "img": "images/fractal1.png",
+    "imgAlt":"Fractal Image"
+  },
+  "Project 6": {
+    "title": "Boggle!",
+    "link": "http://a2.jjanelle.me",
+    "linkText": "Boggle Solver",
+    "github": "https://github.com/jonjanelle/DWA-A2",
+    "skills": "PHP, HTML, CSS",
+    "img": "images/boggle1.png",
+    "imgAlt":"Boggle"
+  }
 
 }

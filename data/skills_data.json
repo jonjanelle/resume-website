@@ -1,50 +1,59 @@
 {
-	"Java":{
-		"icon":"devicon-java-plain-wordmark colored"
-	},
-	"Python":{
-		"icon":"devicon-python-plain-wordmark colored"
-	},
-	"PHP":{
-		"icon":"devicon-php-plain colored"
-	},
-	"JavaScript":{
-		"icon":"devicon-javascript-plain colored"
-	},
-	"C++":{
-		"icon":"devicon-cplusplus-plain colored"
-	},
-	"C#":{
-		"icon":"devicon-csharp-line colored"
-	},
-	"HTML5":{
-		"icon":"devicon-html5-plain-wordmark colored"
-	},
-	"CSS3":{
-		"icon":"devicon-css3-plain-wordmark colored"
-	},
-	"jQuery":{
-		"icon":"devicon-jquery-plain colored"
-	},
-	"AngularJS":{
-		"icon":"devicon-angularjs-plain-wordmark colored"
-	},
-	"Laravel":{
-		"icon":"devicon-laravel-plain-wordmark colored"
-	},
-	"Django":{
-		"icon":"devicon-django-plain colored"
-	},
-	"MySQL":{
-		"icon":"devicon-mysql-plain-wordmark colored"
-	},
-	"git":{
-		"icon":"devicon-git-plain-wordmark colored"
-	},
-	"Bootstrap":{
-		"icon":"devicon-bootstrap-plain-wordmark colored"
-	},
-	"Linux":{
-		"icon":"devicon-linux-plain colored"
-	}
+  "Ruby": {
+    "icon":"devicon-ruby-plain-wordmark colored"
+  },
+  "Rails":{
+    "icon":"devicon-rails-plain-wordmark colored"
+  },
+  "JavaScript":{
+    "icon":"devicon-javascript-plain colored"
+  },
+  "ReactJS": {
+    "icon": "devicon-react-original-wordmark colored"
+  },
+  "jQuery":{
+    "icon":"devicon-jquery-plain colored"
+  },
+  "HTML5":{
+    "icon":"devicon-html5-plain-wordmark colored"
+  },
+  "CSS3":{
+    "icon":"devicon-css3-plain-wordmark colored"
+  },
+  "SASS": {
+    "icon":"devicon-sass-original colored"
+  },
+  "PostgreSQL": {
+    "icon":"devicon-postgresql-plain-wordmark colored"
+  },
+  "Python":{
+    "icon":"devicon-python-plain-wordmark colored"
+  },
+  "Django":{
+    "icon":"devicon-django-plain colored"
+  },
+  "PHP":{
+    "icon":"devicon-php-plain colored"
+  },
+  "Laravel":{
+    "icon":"devicon-laravel-plain-wordmark colored"
+  },
+  "Java":{
+    "icon":"devicon-java-plain-wordmark colored"
+  },
+  "C#":{
+    "icon":"devicon-csharp-line colored"
+  },
+  "MySQL":{
+    "icon":"devicon-mysql-plain-wordmark colored"
+  },
+  "git":{
+    "icon":"devicon-git-plain-wordmark colored"
+  },
+  "Bootstrap":{
+    "icon":"devicon-bootstrap-plain-wordmark colored"
+  },
+  "Linux":{
+    "icon":"devicon-linux-plain colored"
+  }
 }
