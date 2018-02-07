@@ -245,7 +245,7 @@ Contact me panel
 
 <div id="credits">
   <div>Powered by: HTML5, CSS3, Bootstrap, JS, jQuery, PHP</div>
-  Modified: April 2017
+  Modified: Feb. 2018
 </div>
 
 <script src="scripts/scripts.js"></script>
