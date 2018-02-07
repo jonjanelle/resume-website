@@ -54,7 +54,7 @@ $(document).ready(function(){
    * When bio panel is clicked, make current paragraph
    * disappear and a new one enter
    */
-  var bioParagraphs = ["#bio-p1","#bio-p2","#bio-p3","#bio-p4","#bio-p5","#bio-p6","#bio-p7"];
+  var bioParagraphs = ["#bio-p1","#bio-p2","#bio-p3","#bio-p4"];
   var currentBio=0;
   $("#main-bio-panel").click(function() {
       if (currentBio < bioParagraphs.length-1){
