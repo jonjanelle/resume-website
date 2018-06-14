@@ -55,7 +55,7 @@
 <div class="scroll-img bgimg-1" id="first-img">
   <div class="dark-strip">
     <h1 id="main-title" class="text-shadow-dark">Jon Janelle</h1>
-    <p class="text-medium">Software Engineer and Educator</p>
+    <p class="text-large">Web Application Developer and Educator</p>
     <p>jonjanelle1@gmail.com</p>
     <a href="#skills" class="btn btn-circle page-scroll">
       <i class="fa fa-angle-double-down animated"></i>
@@ -222,7 +222,7 @@ Biography panel
 <!--
 Last image divider. Show first image again
 -->
-<div class="bgimg-1" id="last-img">
+<div class="bgimg-4" id="last-img">
   <div class="img-label">Santikhiri, Thailand</div>
 </div>
 

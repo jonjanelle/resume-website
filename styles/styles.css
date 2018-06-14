@@ -179,7 +179,15 @@ i {
   min-height: 350px;
 }
 
+.bgimg-4 {
+  opacity: 0.95;
+  background-image: url(../images/img1.jpg);
+  min-height: 500px;
+}
+
 .dark-strip {
+  padding-top: 30px;
+  padding-bottom: 30px;
   position: absolute;
   left: 0;
   top: 25%;
@@ -352,7 +360,7 @@ i {
   border-radius: 8px;
   box-shadow: 0 3px 15px 3px rgba(100,100,100,.7);
   margin: 0 auto;
-  padding: 1.5em;
+  padding: 3em 1.5em;
   text-align: center;
   line-height: 1.5em;
 
@@ -423,10 +431,14 @@ i {
  * ID STYLES
  */
 #skills-panel {
+  padding-top: 40px;
+  padding-bottom: 40px;
   min-height: 50%;
 }
 
 #bio-p1 {
+  padding-top: 2em;
+  padding-bottom: 1em;
   display: block;
 }
 
@@ -440,6 +452,7 @@ i {
 
 #last-img {
   opacity: .6;
+  max-height: 200px;
 }
 
 #main-title{
